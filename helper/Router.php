@@ -8,7 +8,6 @@ use \Controller\HomeController;
 
 class Router
 {
-
     function __construct()
     {
 
@@ -28,5 +27,4 @@ class Router
         else
             ExceptionHandler::error404();
     }
-
 }

@@ -17,7 +17,6 @@ class RouteHandler
                 $return = $route; 
         }
         return $return;
-            
     }
 
     private static function trimUri($uri)

@@ -15,13 +15,12 @@ class AdminController extends Controller
 
   function __construct()
   {
-    /*parent::__construct();*/
+    parent::__construct();
   }
 
   public function index()
   {
-   /*$tpl = $this->renderView();
-    echo $tpl;*/
-    echo 'Adminpage';
+   $tpl = $this->renderView();
+    echo $tpl;
   }
 }
